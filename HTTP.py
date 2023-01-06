@@ -12,3 +12,6 @@ Content-Length: 20
 Content-Type: "application/json"
 
 {"text":"I got it!"}
+
+# curl запрос
+

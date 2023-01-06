@@ -1,0 +1,11 @@
+curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{"jsonrpc":"2.0","id":1,"method":"greet","params":{"name": "Tota"}}' \
+    http://localhost:8080/json-rpc
+
+curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{"jsonrpc":"2.0","id":1,"method":"get_users"}' \
+    http://localhost:8080/json-rpc
+
+curl -H "Content-Type: application/json" localhost:8080/courses
