@@ -13,5 +13,5 @@ Content-Type: "application/json"
 
 {"text":"I got it!"}
 
-# curl запрос
+# curl запросы
 
